@@ -1,28 +1,26 @@
 setTimeout(() => {
-    document.getElementById("display").innerText = "10";
+  document.getElementById("display").innerText = "10";
+  setTimeout(() => {
+    document.getElementById("display").innerText = "9";
     setTimeout(() => {
-      document.getElementById("display").innerText = "9";
+      document.getElementById("display").innerText = "8";
       setTimeout(() => {
-        document.getElementById("display").innerText = "8";
+        document.getElementById("display").innerText = "7";
         setTimeout(() => {
-          document.getElementById("display").innerText = "7";
-
+          document.getElementById("display").innerText = "6";
           setTimeout(() => {
-        document.getElementById("display").innerText = "6";
+            document.getElementById("display").innerText = "5";
             setTimeout(() => {
-          document.getElementById("display").innerText = "5";
+              document.getElementById("display").innerText = "4";
               setTimeout(() => {
-                document.getElementById("display").innerText = "4";
+                document.getElementById("display").innerText = "3";
                 setTimeout(() => {
-                  document.getElementById("display").innerText = "3";
+                  document.getElementById("display").innerText = "2";
                   setTimeout(() => {
-                    document.getElementById("display").innerText = "2";
+                    document.getElementById("display").innerText = "1";
                     setTimeout(() => {
-                      document.getElementById("display").innerText = "1";
-                      setTimeout(() => {
-                        document.getElementById("display").innerText =
-                          "Happy Independence Day!";
-                      }, 1000);
+                      document.getElementById("display").innerText =
+                        "Happy Independence Day!";
                     }, 1000);
                   }, 1000);
                 }, 1000);
@@ -33,3 +31,4 @@ setTimeout(() => {
       }, 1000);
     }, 1000);
   }, 1000);
+}, 1000);
